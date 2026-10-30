@@ -3,11 +3,11 @@ import FxRs.Laws
 /-!
 Indexed kernel `IFx S1 S2 V`: a computation that needs context `S1` and
 ends with context `S2`. Atkey's typed state
-`T (S1, S2, A) = (S2 × A)^S1` (`vic/papers/atkey-paramnotions.txt:296`).
+`T (S1, S2, A) = (S2 × A)^S1` (Atkey, "Parameterised Notions of Computation", JFP 2009).
 
 `adapt` keeps the body of `kernel/fx.rs:44-49`. Only the types change.
 `contraMap` takes a heterogeneous lens `(T1, T2) ⇸ (S1, S2)`, the lens of
-Wilshaw & Hutton Def 3.2 (`vic/papers/wilshaw-hutton-flow.txt:306-308`).
+Wilshaw and Hutton, "Flow Typing: A New Lens on Linearity", Def. 3.2.
 -/
 
 namespace FxRs

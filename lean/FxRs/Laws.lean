@@ -10,7 +10,7 @@ The laws hold up to `run`, not syntactically: `adapt` always adds a
 
 `run_mapM` shows that `mapM` is the bind of the state monad
 `S → S × V`, Atkey's `T (S1, S2, A) = (S2 × A)^S1` with `S1 = S2`
-(`vic/papers/atkey-paramnotions.txt:296`).
+(Atkey, "Parameterised Notions of Computation", JFP 2009).
 -/
 
 namespace FxRs.Fx

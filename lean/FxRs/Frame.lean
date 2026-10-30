@@ -5,11 +5,11 @@ Frame rule for the indexed kernel.
 
 An `Optic` is a representative `⟨l | r⟩` of Riley's
 `Optic((S, S'), (A, A')) := ∫^M C(S, M ⊗ A) × C(M ⊗ A', S')`
-(`vic/papers/riley-optics.txt:178-186`), with the residual `R` explicit.
+(Riley, "Categories of Optics", 2018, Def. 2.0.1), with the residual `R` explicit.
 The residual holds the rest of the context. `zoom` passes it through
 unchanged, so a framed step cannot write to the rest of the context.
 
-`zoom_mapM` is Brady's `call` (`vic/papers/brady-st.txt:466-471`): a
+`zoom_mapM` is Brady's `call` (Brady, "State Machines All The Way Down", sec. 3.3): a
 subprogram typed against a small context runs in a larger one, and the
 parent context is rebuilt after it.
 -/
