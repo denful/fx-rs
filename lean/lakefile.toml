@@ -1,0 +1,6 @@
+name = "fxrs"
+version = "0.1.0"
+defaultTargets = ["FxRs"]
+
+[[lean_lib]]
+name = "FxRs"
